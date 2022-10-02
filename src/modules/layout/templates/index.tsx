@@ -7,7 +7,7 @@ const Layout: React.FC = ({ children }) => {
     <div>
       <Nav />
       <main className="relative">{children}</main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
